@@ -18,14 +18,14 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #811bf7;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(61, 59, 59);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -67,14 +67,14 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 3px solid rgb(204, 250, 248);
+  border: 3px solid rgb(59, 61, 61);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(10deg);
+  transform: scale(1.2) rotate(30deg);
 }
 .tag {
   background-color: #efefef;
@@ -212,6 +212,10 @@ a.social:hover {
     font-size: 1.3em;
     max-width: 1200px;
     margin: 40px auto;
+  }
+  h2.ground{
+    text-shadow: 2px 2px red;
+
   }
 
 }
