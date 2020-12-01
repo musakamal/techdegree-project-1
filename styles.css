@@ -98,7 +98,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card1 {
+.card{
   text-shadow: rgb(151, 151, 40);
   margin: 30px;
   padding: 20px 40px 40px;
@@ -214,9 +214,14 @@ a.social:hover {
     margin: 40px auto;
   }
   h2.ground{
-    text-shadow: 2px 2px red;
-
+    color: rgb(70, 68, 68);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
-
+  div.card {
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
 }
 
