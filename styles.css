@@ -18,14 +18,14 @@ a {
   color: #999;
 }
 a:hover {
-  color: #811bf7;
+  color: #6633ff;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: rgb(61, 59, 59);
+  background: black;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,24 +57,24 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/timeline.jpg') no-repeat top center ;
+  background: url('images/portland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 header {
   line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  border: 3px solid rgb(59, 61, 61);
+  border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(30deg);
+  transform: scale(1.2) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
@@ -94,18 +94,7 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid rgb(204, 250, 248);
-  border-radius: 6px;
-  transition: all .5s;
-}
-.card{
-  text-shadow: rgb(151, 151, 40);
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
-  background: #fff;
-  border-bottom: 4px solid rgb(204, 250, 248);
+  border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
@@ -213,17 +202,6 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-  h2.ground{
-    color: rgb(70, 68, 68);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
- .card{
-  box-shadow: 3px 3px gray;
 
- }
-  
-
- }
-  
-
+}
 
