@@ -73,8 +73,8 @@ a {
     transition: all .5s;
   }
   .card {         /*my additional class name -for card*/
-    margin-left: 35%;      
-    margin-right: 35%;
+    margin-left: 37%;      
+    margin-right: 30%;
     width: auto;
 }
 a.social {
