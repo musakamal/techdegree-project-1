@@ -87,9 +87,6 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.social{
-  
-}
 a.twitter {
   background-image: url(../images/twitter.svg);
 }
